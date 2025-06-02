@@ -33,7 +33,7 @@ spring:
   # 空间图片分表
   shardingsphere:
     datasource:
-      names: pic_lin03_cn
+      names: pic
       pic_cloud:
         type: com.zaxxer.hikari.HikariDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver
